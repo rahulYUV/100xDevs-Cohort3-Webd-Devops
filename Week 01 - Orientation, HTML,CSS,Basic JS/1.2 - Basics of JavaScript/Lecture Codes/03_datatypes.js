@@ -1,7 +1,29 @@
+// dt si defiend as a which type of data is going to enter in the computer and how much stoage it will taking in computer , but js is a loosely typed language 
+
+let numb =99;
+console.log(numb);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let number = 44; // Number
 let string = "Hello World!"; // String
 let isActive = false; // Boolean
 let numbers = [1, 2, 3]; // Array
+let namee ="this is a string as WEll"
 
 console.log(number); // 44
 console.log(string); // Hello World!
@@ -9,13 +31,6 @@ console.log(isActive); // false
 console.log(numbers); // [1, 2, 3]
 
 
-let user1 = "Harkirat";
-let user2 = "Bharat";
-let user3 = "Deepak";
-
-console.log(user1); // Harkirat
-console.log(user2); // Bharat
-console.log(user3); // Deepak
 
 
 // Array

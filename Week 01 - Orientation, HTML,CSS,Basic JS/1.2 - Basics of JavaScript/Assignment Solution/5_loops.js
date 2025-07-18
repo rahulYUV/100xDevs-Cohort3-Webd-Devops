@@ -1,6 +1,21 @@
 // 1. Write a function called `sum` that finds the sum from 1 to a number
 
 
+
+
+
+function doSum(numb){
+    let sum=0;
+    for(let i =1;i<numb;i++){
+        sum= sum+i
+    }
+    return sum;
+}
+
+
+
+
+
 // define a function called `sum` that takes a number as an input and returns the sum from 1 to that number
 function sum(num) {
     // define a variable called `total` and set it to 0

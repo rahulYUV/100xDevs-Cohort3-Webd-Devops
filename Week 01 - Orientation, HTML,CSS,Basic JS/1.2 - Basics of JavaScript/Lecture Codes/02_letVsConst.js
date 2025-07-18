@@ -10,7 +10,7 @@ console.log(isStudent); // false
 
 
 // const
-const firstName = "Bharat";
+const firstName = "rahull";
 
 console.log("Hello from before"); // Hello from before
 // firstName = 1;   // TypeError: Assignment to constant variable.

@@ -3,7 +3,9 @@ let student = {
   age: 21,
   gender: "Male",
 };
-
+let student1={
+    name:"rahul"
+}
 console.log(student); // { name: 'Bharat', age: 21, gender: 'Male' }
 console.log(student.name); // Bharat
 console.log(student.age); // 21

@@ -5,10 +5,31 @@ Try logging it using `console.log`
 */
 
 
-var favColor = "Black";
-let height = 179.832;
-const likePizza = true;
+let favColorr = "white";
+const heightt = 165.5;
 
-console.log(favColor); // Black
-console.log(height); // 179.832
-console.log(likePizza); // true
+ let pizzaLike = false;
+
+ console.log(favColorr);
+ console.log(heightt+" is the height");
+ console.log(pizzaLike+ " pizza i like it  ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var favColor = "Black";
+// let height = 179.832;
+// const likePizza = true;
+
+// console.log(favColor); // Black
+// console.log(height); // 179.832
+// console.log(likePizza); // true

@@ -1,6 +1,27 @@
 // 1. Write a function that takes a `user` as an input and greets them with their name and age
 
 
+function namaskar(user){
+    return ` hello  ${user.name} and your age is ${user.age}`
+}
+
+
+
+
+let userr={
+    name:"rahul",
+    age:19
+}
+
+
+// console.log(namaskar(userr));
+
+
+
+
+
+
+
 // define a function called `greetUser` that takes a user object as an input
 function greetUser(user) {
     // logs a greeting message with the user's name and age
@@ -9,15 +30,25 @@ function greetUser(user) {
 
 // define a user object with a name and age
 let user = {
-    name: "Bharat",
-    age: 21
+    name: "rahull",
+    age: 19
 };
 
 // calls the function `greetUser` with the user object as an input
-greetUser(user); // Hello Bharat, You are 21 years old.
+// greetUser(user); // Hello rahul, 19
 
 
-// 2. Write a function that takes a new object as input which has `name` , `age`  and `gender` and greets the user with their gender (Hi `Mr/Mrs/Others` harkirat, your age is 21)
+// 2. Write a function that takes a new object as input which has `name` , `age`  and `gender` and greets the user with their gender
+//  (Hi `Mr/Mrs/Others` harkirat, your age is 21)
+function namaskaram(user){
+    if(user.gender== "female"){
+        return`hello madam`;
+    }else if(user.gender == "male"){
+        return `hello sir`;
+    }
+}
+
+
 
 // define a function called `greet` that takes a user object as an input
 function greet(user) {
@@ -32,11 +63,11 @@ function greet(user) {
 }
 
 // define a user1 object with a name, age and gender
-let user1 = {
-    name: "Bharat",
-    age: 21,
-    gender: "male"
-}
+    let user1={
+        name:"rahul kumar",
+        age:"19",
+        gender:"male"
+    }
 
 // calls the function `greet` with the user1 object as an input
 greet(user1); // Hi Mr Bharat, your age is 21
@@ -80,10 +111,10 @@ function canVote(age) {
 
 // define a user2 object with a name
 let user2 = {
-    name: "Bharat",
-    age: 21,
+    name: "Rahul",
+    age: 19,
     gender: "male"
 }
 
 // calls the function `greet` with the user2 object as an input
-greet(user2); // Hi Mr Bharat, your age is 21 and you are eligible to vote
+greet(user2); // Hi Mr Rahul, your age is 21 and you are eligible to vote
