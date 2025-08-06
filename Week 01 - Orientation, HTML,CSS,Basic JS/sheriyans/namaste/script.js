@@ -152,6 +152,11 @@ console.log(counter2()); // 3
     // Named IIFE
 })();
 
+(
+    function(){
+        
+    }
+)()
 // ============================================
 // 7. ARROW FUNCTIONS AND DEFAULT PARAMETERS
 // ============================================
@@ -359,3 +364,10 @@ const courses ={
 for(let key in courses){
     console.log(key +" is "+ courses[key]);
 }
+
+
+
+
+
+
+
